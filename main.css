@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html {
+	background: url('https://i.imgur.com/HaDWYyD.png') no-repeat center center fixed;
+	background-size: cover;
+}
+
+body * {
+ 	max-width: 600px; 
+ 	margin-left: auto;
+  	margin-right: auto;
+ }
+
+.content-box {
+	background-color: #99e6e6;
+	height: 810px;
+	max-width: 600px;
+	margin: 30px auto 30px auto;
+  	font-size: 20px;
+}
+
+.logo {
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.the-quiz-header {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.start, .next-question, .final-score, .play-again {
+	font-size: 20px;
+	padding: 5px;
+	display: block;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-shadow: 0 5px 8px 0 #999999;
+	margin-bottom: 20px;
+}
+
+button:hover {
+	background-color: #ffd11a;
+}
+
+button:active {
+ 	transform: translateY(3px);
+}
+
+.question-box, .feedback, .end-screen {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.question {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.question-number{
+	margin-bottom: 15px;
+}
+
+.current-score {
+	margin-top: 15px;
+}
+
+.answer {
+	display: block;
+	font-size: 20px;
+	text-align: left;
+	padding: 5px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-shadow: 0 5px 8px 0 #999999;
+	margin-bottom: 10px;
+}
+
+.feedback-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-bottom: 15px;
+}
+
+.feedback-score {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.feedback-text, .end-score {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.end-gif {
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+	.content-box {
+		margin: 0 auto 0 auto;
+  }
+}
