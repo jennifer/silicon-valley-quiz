@@ -110,11 +110,11 @@ function renderQuestions(){
 				<form>
 					<p class='question'>${quizQuestions[questionIndex].question}</p>
 					<fieldset>
-						<button class='answer' value='${quizQuestions[questionIndex].answers[0]}'>${quizQuestions[questionIndex].answers[0]}</button>
-		        		<button class='answer' value='${quizQuestions[questionIndex].answers[1]}'>${quizQuestions[questionIndex].answers[1]}</button>
-		        		<button class='answer' value='${quizQuestions[questionIndex].answers[2]}'>${quizQuestions[questionIndex].answers[2]}</button>
-		        		<button class='answer' value='${quizQuestions[questionIndex].answers[3]}'>${quizQuestions[questionIndex].answers[3]}</button>
-		        	</fieldset>
+						 <button class='answer' value='${quizQuestions[questionIndex].answers[0]}'>${quizQuestions[questionIndex].answers[0]}</button>
+		         <button class='answer' value='${quizQuestions[questionIndex].answers[1]}'>${quizQuestions[questionIndex].answers[1]}</button>
+		         <button class='answer' value='${quizQuestions[questionIndex].answers[2]}'>${quizQuestions[questionIndex].answers[2]}</button>
+		         <button class='answer' value='${quizQuestions[questionIndex].answers[3]}'>${quizQuestions[questionIndex].answers[3]}</button>
+		       </fieldset>
 				</form>
 				<p class='current-score'>You have ${answersCorrect} correct and ${answersIncorrect} incorrect.</p>
 			</div>
