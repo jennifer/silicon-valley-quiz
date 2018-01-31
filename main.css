@@ -89,6 +89,10 @@ button:active {
 	margin-bottom: 10px;
 }
 
+fieldset {
+	border: none;
+}
+
 .feedback-image {
 	display: block;
 	margin-left: auto;
